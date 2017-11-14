@@ -1550,6 +1550,7 @@ def nonzero(a):
     >>> np.nonzero(x)
     (array([0, 1, 2, 2]), array([0, 1, 0, 1]))
 
+    >>> x = np.identity(3)
     >>> x[np.nonzero(x)]
     array([1, 2, 1, 1])
     >>> np.transpose(np.nonzero(x))
